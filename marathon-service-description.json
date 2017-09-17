@@ -1,8 +1,8 @@
 {
-  "id": "/web-api",
+  "id": "/website",
   "args": [
     "-u",
-    "https://github.com/mesos-playground/webapi/releases/download/2017.09.16-1/webapi.tgz"
+    "https://github.com/mesos-playground/webapi/releases/download/2017.09.17-1/webapi.tgz"
   ],
   "instances": 3,
   "cpus": 0.1,
@@ -29,7 +29,7 @@
           "protocol": "tcp",
           "name": "web",
           "labels": {
-            "VIP_0": "/web-api:3000"
+            "VIP_0": "/website:3000"
           }
         }
       ],

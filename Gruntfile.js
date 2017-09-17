@@ -1,6 +1,7 @@
 const manifest = [
     'package-lock.json',
     'index.js',
+    'index.html'
 ];
 
 const dist = 'dist';
