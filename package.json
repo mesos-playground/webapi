@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "^4.15.4"
+    },
+    "devDependencies": {
+        "grunt": "^1.0.1",
+        "grunt-contrib-compress": "^1.4.3",
+        "grunt-copy": "^0.1.0",
+        "grunt-package-modules": "^1.0.0"
+    }
+}
