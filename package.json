@@ -1,14 +1,28 @@
 {
-    "scripts": {
-        "start": "node index.js"
-    },
-    "dependencies": {
-        "express": "^4.15.4"
-    },
-    "devDependencies": {
-        "grunt": "^1.0.1",
-        "grunt-contrib-compress": "^1.4.3",
-        "grunt-copy": "^0.1.0",
-        "grunt-package-modules": "^1.0.0"
+  "config": {
+    "endpoints": {
+      "MathService": {
+        "host": "192.168.65.111",
+        "port": 29144
+      },
+      "UuidService": {
+        "host": "192.168.65.111",
+        "port": 30965
+      }
     }
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@mesos-playground/seneca-proxies": "^1.2.0",
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-compress": "^1.4.3",
+    "grunt-copy": "^0.1.0",
+    "grunt-package-modules": "^1.0.0"
+  }
 }
