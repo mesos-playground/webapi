@@ -6,7 +6,7 @@
   ],
   "instances": 3,
   "cpus": 0.1,
-  "mem": 32,
+  "mem": 128,
   "disk": 0,
   "gpus": 0,
   "constraints": [],
