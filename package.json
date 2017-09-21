@@ -2,12 +2,12 @@
   "config": {
     "endpoints": {
       "MathService": {
-        "host": "192.168.65.111",
-        "port": 29144
+        "host": "micro-math-service.marathon.l4lb.thisdcos.directory",
+        "port": 3000
       },
       "UuidService": {
-        "host": "192.168.65.111",
-        "port": 30965
+        "host": "micro-uuid-service.marathon.l4lb.thisdcos.directory",
+        "port": 3000
       }
     }
   },
