@@ -5,7 +5,7 @@ const manifest = [
 ];
 
 const dist = 'dist';
-const bundle = dist + '/webapi.tgz';
+const bundle = dist + '/bundle.tgz';
 
 module.exports = function(grunt) {
 
